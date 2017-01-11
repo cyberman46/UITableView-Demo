@@ -13,6 +13,8 @@
 		90EE53AB1E25E6FC00102ECC /* UITableView_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90EE53A91E25E6FC00102ECC /* UITableView_Demo.xcdatamodeld */; };
 		90EE53AD1E25E6FC00102ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EE53AC1E25E6FC00102ECC /* Assets.xcassets */; };
 		90EE53B01E25E6FC00102ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EE53AE1E25E6FC00102ECC /* LaunchScreen.storyboard */; };
+		90EE53BA1E25EB2700102ECC /* LemonTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EE53B91E25EB2700102ECC /* LemonTableTableViewController.swift */; };
+		90EE53BC1E26228D00102ECC /* OrangeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EE53BB1E26228D00102ECC /* OrangeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		90EE53AC1E25E6FC00102ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90EE53AF1E25E6FC00102ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90EE53B11E25E6FC00102ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EE53B91E25EB2700102ECC /* LemonTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonTableTableViewController.swift; sourceTree = "<group>"; };
+		90EE53BB1E26228D00102ECC /* OrangeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				90EE53AE1E25E6FC00102ECC /* LaunchScreen.storyboard */,
 				90EE53B11E25E6FC00102ECC /* Info.plist */,
 				90EE53A91E25E6FC00102ECC /* UITableView_Demo.xcdatamodeld */,
+				90EE53B91E25EB2700102ECC /* LemonTableTableViewController.swift */,
+				90EE53BB1E26228D00102ECC /* OrangeTableViewController.swift */,
 			);
 			path = "UITableView Demo";
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EE53BA1E25EB2700102ECC /* LemonTableTableViewController.swift in Sources */,
 				90EE53A51E25E6FC00102ECC /* ViewController.swift in Sources */,
+				90EE53BC1E26228D00102ECC /* OrangeTableViewController.swift in Sources */,
 				90EE53A31E25E6FC00102ECC /* AppDelegate.swift in Sources */,
 				90EE53AB1E25E6FC00102ECC /* UITableView_Demo.xcdatamodeld in Sources */,
 			);
